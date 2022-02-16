@@ -36,5 +36,5 @@ SO THAT I can gauge my progress compared to my peers
 ![Highscores of Code Quiz Page](./assets/images/highscores.png)
 <br/>
 
-### Click [here](https://nevan-dsouza.github.io/scheduler/) to view the page
+### Click [here](https://nevan-dsouza.github.io/coding-quiz/) to view the page
 <br/>
