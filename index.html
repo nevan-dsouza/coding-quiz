@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Coding Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+</head>
+
+<body>
+
+    <header>
+        <h2>Time Left: <span id="countdown-timer">60</span></h2>
+    </header>
+
+    <!-- Main Menu-->
+    <div id="start-container">
+        <h1>The Best JavaScript Quiz</h1>
+        <p><span class="imp-text">-10 seconds</span> for every wrong answer! All the best!</p>
+        <button id="start-button" class="button">Start the Quiz</button>
+    </div>
+
+    <!-- Content Container -->
+    <div id="questions-container">
+        <div id="questions-card" class="hidden">
+            <div id="question">
+    
+            </div>
+            <div id="choices" class="button-grid">
+    
+            </div>
+            <div id="response">
+    
+            </div>
+    
+        </div>
+    
+    
+        <!-- Score Container -->
+        <form id="finished-container" class="hidden">
+            <h3>The End.</h3>
+            <h4>Your final score is: <span id="score"></span>.</h4>
+            <label>Enter name: </label>
+            <input type="text" name="initials" id="initials" placeholder="your name">
+            <button id="submit-button" class="button">Submit</button>
+        </form>
+    
+        <!-- Highscore -->
+        <div id="highscores-container" class="hidden">
+            <h3>Highscores</h3>
+            <h4 id="empty-highscores-list" class="hidden">All scores have been cleared.</h4>
+            <ol id="highscores-list">
+    
+            </ol>
+            <button id="try-again-button" class="button">Back</button>
+            <button id="clear-button" class="button">Clear Highscores</button>
+    
+        </div>
+    
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: rgb(188, 217, 255);
+}
+
+header {
+    display: block;
+    margin-top: 10px;
+    justify-content: middle;
+}
+
+button {
+    margin: 15px;
+}
+
+.button-grid {
+    display: inline-flex;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* this class is used to hide and show the right containers */
+.hidden {
+    display: none;
+}
+
+#countdown-timer {
+    float: middle;
+}
+#start-container {
+    text-align: center;
+}
+
+#questions-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#questions-card {
+    margin-bottom: 5px;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(188, 217, 255);
+}
+
+.imp-text{
+    color: red;
+    font-weight: bold;
+}
+
+#response{
+    background-color: rgb(255, 247, 199);
+}
